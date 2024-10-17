@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+</head>
+<style>
+    input {
+margin-left: 400px;
+border: 3px solid goldenrod;
+    }
+    h1 {
+        margin-left: 400px;
+    }
+</style>
+<body>
+
+    <h1>อัปโหลดเอกสาร</h1>
+    <input type="file" id="uploadFile" accept=".pdf,.doc,.docx,.txt">
+    <button onclick="uploadFile()">อัปโหลด</button>
+
+    <script>
+        function uploadFile() {
+            const fileInput = document.getElementById('uploadFile');
+            const file = fileInput.files[0];
+            if (file) {
+                alert('คุณได้เลือกไฟล์: ' + file.name);
+                // คุณสามารถเพิ่มโค้ดที่ส่งไฟล์ไปยังเซิร์ฟเวอร์ได้ตรงนี้
+            } else {
+                alert('กรุณาเลือกไฟล์ก่อน');
+            }
+        }
+    </script>
+
+</body>
+</html>

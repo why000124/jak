@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+</head>
+<style>
+    input {
+margin-left: 400px;
+border: 3px solid gold;
+    }
+    h1 {
+        margin-left: 400px;
+    }
+    img {
+        margin-left: 400px;
+    }
+</style>
+<body>
+    <h1>เพิ่มรูปภาพ</h1>
+
+    <!-- ปุ่มอัปโหลดรูปภาพ -->
+    <input type="file" id="imageUpload" accept="image/*" />
+
+    <!-- การแสดงตัวอย่างรูปภาพ -->
+    <img id="imagePreview" style="display:none; max-width: 300px;" alt="Image Preview" />
+
+    <script>
+        const imageUpload = document.getElementById('imageUpload');
+        const imagePreview = document.getElementById('imagePreview');
+
+        imageUpload.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.style.display = 'block';
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>
+</html>
