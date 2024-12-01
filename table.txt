@@ -1,0 +1,48 @@
+banner x6
+ข่าวประชาสัมพันธ์หน้าแรกเป็นเอกสาร x6
+คณะครูช่างยนต์* 3
+เครื่องกล*3
+ช่างเชื่อม*3
+เทคอุต*3
+เทคโนโลยีสารสนเทศ*4
+คอมเกมแอนิเมชัน*4
+สามัญสำพันธ์*4
+เทคนิคพื้นฐาน*3
+คณะผู้บริหาร*3
+วารสารข่าวประชาสัมพันธ์*6
+ข่าวประชาสัมพันธ์*3
+
+หมู่ banner ชื่อ banner 1
+หมู่ รูป ย่อย banner ชื่อ banner 1
+
+Banner1-6
+MainDocument1-6
+TeacherEngineimage1-3
+TeacherMachanical1-3
+TeacherWelder1-3
+TeacherIndustrial1-3
+TeacherIT1-4
+TeacherComGame1-4
+TeacherGeneral1-4
+TeacherBasic1-3
+Executive1-3
+Journal1-6
+Info1-3
+
+project/
+├── admin/                       # โฟลเดอร์สำหรับระบบหลังบ้าน
+│   ├── admin.php                # หน้าหลังบ้านหลักสำหรับจัดการข้อมูล
+│   ├── update_assets.php        # ไฟล์ PHP สำหรับอัปเดตข้อมูลในฐานข้อมูล
+├── assets/                      # โฟลเดอร์เก็บไฟล์รูปภาพและเอกสาร
+│   ├── uploads/                 # ไฟล์ที่อัปโหลด เช่น Banner และเอกสาร
+│   │   ├── banner1.png
+│   │   ├── document1.pdf
+│   │   ├── teacher1.png
+├── css/                         # โฟลเดอร์สำหรับไฟล์ CSS
+│   ├── styles.css               # ไฟล์ CSS สำหรับหน้าเว็บ
+├── includes/                    # ไฟล์ที่ใช้ซ้ำในหลายหน้าของระบบ
+│   ├── db.php                   # การเชื่อมต่อฐานข้อมูล
+│   ├── functions.php            # ฟังก์ชัน PHP ที่ใช้ในระบบ
+├── index.php                    # หน้าแสดงข้อมูลหลัก (หน้าบ้าน)
+├── admin-login.php              # หน้าล็อกอินสำหรับผู้ดูแลระบบ
+└── .htaccess                    # กำหนดการเข้าถึง (เช่น ป้องกันการเข้าถึง admin โดยตรง)
