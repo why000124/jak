@@ -97,14 +97,14 @@ include 'includes/functions.php';
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown"><img src="assets/img/วันแม่.png" alt=""></h2>
+            <h2 class="animate__animated animate__fadeInDown"><img src="<?php echo renderShortcode('Banner', 'Banner1'); ?>" alt=""></h2>
           </div>
         </div>
 
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown"><img src="assets/img/วันเฉลิม ร.10.png" alt=""></h2>
+            <h2 class="animate__animated animate__fadeInDown"><img src="<?php echo renderShortcode('Banner', 'Banner2'); ?>" alt=""></h2>
           </div>
         </div>
 
@@ -112,27 +112,27 @@ include 'includes/functions.php';
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown"><img
-                src="assets/img/_สมเด็จพระนางเจ้าสุทิดา พัชรสุธาพิมลลักษณ พระบรมราชินี.png" alt=""></h2>
+                src="<?php echo renderShortcode('Banner', 'Banner3'); ?>" alt=""></h2>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown"><img src="assets/img/เปิดรับสมัคร.png" alt=""></h2>
+            <h2 class="animate__animated animate__fadeInDown"><img src="<?php echo renderShortcode('Banner', 'Banner4'); ?>" alt=""></h2>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="carousel-container">
             <h2 class="animate__animated animate__fadeInDown"><img
-                src="assets/img/ป้าย - วันคล้ายวันประสูติ สมเด็จพระอริยวงศาคตญาณ สมเด็จพระสังฆราช สกลมหาสังฆปริณายก.jpg"
+                src="<?php echo renderShortcode('Banner', 'Banner5'); ?>"
                 alt=""></h2>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown"><img src="assets/img/หน้าวิทยาลัย.jpg" alt=""></h2>
+            <h2 class="animate__animated animate__fadeInDown"><img src="<?php echo renderShortcode('Banner', 'Banner6'); ?>" alt=""></h2>
           </div>
         </div>
 
@@ -220,14 +220,14 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/ประกาศรายชื่อผู้ผ่านการเลือกสรรเพื่อจัดจ้างเป็นพนักงานราชการ(ภาษาไทย).pdf"
-                        target="_blank"><img src="assets/img/ประกาศพนักงานราชการ(ภาษาไทย).jpg" alt=""
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์1'); ?>"
+                        target="_blank"><img src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง1'); ?>" alt=""
                           class="img-fluid"></a>
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
                         <a
-                          href="ประกาศข่าว/ประกาศรายชื่อผู้ผ่านการเลือกสรรเพื่อจัดจ้างเป็นพนักงานราชการ(ภาษาไทย).pdf">ประกาศรายชื่อผู้ผ่านการเลือกสรรเพื่อจัดจ้างเป็นพนักงานราชการ</a>
+                          href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์1'); ?>"><?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์1', 'description'); ?></a>
                       </div>
                     </div>
 
@@ -237,13 +237,12 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/รับสมัครครูอัตราจ้างช่างยนต์67.pdf" target="_blank"><img
-                          src="assets/img/ครูอัตราจ้างช่างยนต์67.jpg" alt="" class="img-fluid"></a>
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่2'); ?>" target="_blank"><img
+                          src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง2'); ?>" alt="" class="img-fluid"></a>
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
-                        <a href="ประกาศข่าว/รับสมัครครูอัตราจ้างช่างยนต์67.pdf">ประกาศรับสมัครบุคคลเพื่อสรรหาเป็นลูกจ้างชั่วคราว
-                          ตำแหน่ง ครูพิเศษสอน</a>
+                        <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่2'); ?>"><?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่2', 'description'); ?></a>
                         </p>
                       </div>
                     </div>
@@ -254,13 +253,12 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/ประกาศรับสมัครครูพิเศษสอน.pdf" target="_blank"><img
-                          src="assets/img/รับสมัครครูพิเศษสอน.png" alt="" class="img-fluid"></a>
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่3'); ?>" target="_blank"><img
+                          src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง3'); ?>" alt="" class="img-fluid"></a>
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
-                        <a href="ประกาศข่าว/ประกาศรับสมัครครูพิเศษสอน.pdf">ประกาศรับสมัครบุคคลเพื่อสรรหาเป็นลูกจ้างชั่วคราว
-                          ตำแหน่ง ครูพิเศษสอน</a>
+                        <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่3'); ?>"><?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่3', 'description'); ?></a>
                       </div>
                     </div>
 
@@ -270,12 +268,12 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/เดือนพฤษภาคม2566.pdf" target="_blank"><img
-                          src="assets/img/เดือนพฤษภาคม2566.png" alt="" class="img-fluid"></a>
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่4'); ?>" target="_blank"><img
+                          src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง4'); ?>" alt="" class="img-fluid"></a>
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
-                        <a href="ประกาศข่าว/เดือนพฤษภาคม2566.pdf">ขอส่งรายงานประจำเดือน พฤษภาคม 2566</a>
+                        <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่4'); ?>"> <?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่4', 'description'); ?></a>
 
                       </div>
                     </div>
@@ -286,14 +284,13 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/ประกาศเปิดภาคเรียน-2-ปีการศึกษา-2565.pdf" target="_blank"><img
-                          src="assets/img/เดือนเมษายน2566.png" alt="" class="img-fluid"></a>
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่5'); ?>" target="_blank"><img
+                          src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง5'); ?>" alt="" class="img-fluid"></a>
 
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
-                        <a href="ประกาศข่าว/ประกาศเปิดภาคเรียน-2-ปีการศึกษา-2565.pdf">ขอส่งรายงานประจำเดือน เมษายน
-                          2566</a>
+                        <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่5'); ?>"><?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่5', 'description'); ?></a>
                       </div>
                     </div>
 
@@ -303,13 +300,13 @@ include 'includes/functions.php';
                   <article>
 
                     <div class="post">
-                      <a href="ประกาศข่าว/ประกาศรับสมัครสามเณรหลักสูตรระยะสั้น.pdf" target="_blank"><img
-                          src="assets/img/ระยะสั้น.jpg" alt="" class="img-fluid"></a>
+                      <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่6'); ?>" target="_blank"><img
+                          src="<?php echo renderShortcode('Other', 'ข่าวประข่าวประชาสัมพันธ์ช่อง6'); ?>" alt="" class="img-fluid"></a>
 
                     </div>
                     <div class="d-flex align-items-center">
                       <div class="post">
-                        <a href="ประกาศข่าว/ประกาศรับสมัครสามเณรหลักสูตรระยะสั้น.pdf">ประกาศรายวิชาระยะสั้น</a>
+                        <a href="<?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่6'); ?>"><?php echo renderShortcode('MainDocument', 'ข่าวประชาสัมพันธ์ช่องที่6', 'description'); ?></a>
 
                       </div>
                     </div>
@@ -529,12 +526,12 @@ include 'includes/functions.php';
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/ผอ.เทพสมบัติ.jpg" class="img-fluid" alt="">
+                <img src="<?php echo renderShortcode('Executive', 'ผู้อำนวยการวิทยาลัยเสริมทักษะพระภิกษุ สามเณร'); ?>" class="img-fluid" alt="">
                 <style>
                 </style>
               </div>
               <div class="member-info">
-                <h4>นายเทพสมบัติ แสนวงษ์</h4>
+                <h4><?php echo renderShortcode('Executive', 'ผู้อำนวยการวิทยาลัยเสริมทักษะพระภิกษุ สามเณร', 'description'); ?></h4>
                 <span>ผู้อำนวยการวิทยาลัยเสริมทักษะพระภิกษุ สามเณร</span>
               </div>
             </div>
@@ -543,11 +540,11 @@ include 'includes/functions.php';
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/รองวิชญ์วิสิฐ.jpg" class="img-fluid" alt="">
+                <img src="<?php echo renderShortcode('Executive', 'รองผู้อำนวยการฝ่ายวิชาการ รองผู้อำนวยการฝ่ายบริหารทรัพยากร'); ?>" class="img-fluid" alt="">
 
               </div>
               <div class="member-info">
-                <h4>นายวิชญ์วิสิฐ เขียวสอาด</h4>
+                <h4><?php echo renderShortcode('Executive', 'รองผู้อำนวยการฝ่ายวิชาการ รองผู้อำนวยการฝ่ายบริหารทรัพยากร', 'description'); ?></h4>
                 <span>รองผู้อำนวยการฝ่ายวิชาการ</span>
                 <span>รองผู้อำนวยการฝ่ายบริหารทรัพยากร</span>
               </div>
@@ -557,10 +554,10 @@ include 'includes/functions.php';
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/รองพรวิสาข์1.jpg" class="img-fluid" alt="">
+                <img src="<?php echo renderShortcode('Executive', 'รองผู้อำนวยการฝ่ายแผนงานและความร่วมมือ รองผู้อำนวยการฝ่ายพัฒนากิจการนักเรียน นักศึกษา'); ?>" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>นางสาวพรวิสาข์ จตุระบุล</h4>
+                <h4><?php echo renderShortcode('Executive', 'รองผู้อำนวยการฝ่ายแผนงานและความร่วมมือ รองผู้อำนวยการฝ่ายพัฒนากิจการนักเรียน นักศึกษา', 'description'); ?></h4>
                 <span>รองผู้อำนวยการฝ่ายแผนงานและความร่วมมือ</span>
                 <span>รองผู้อำนวยการฝ่ายพัฒนากิจการนักเรียน นักศึกษา</span>
               </div>
@@ -669,7 +666,7 @@ include 'includes/functions.php';
       <div class="social-links d-flex justify-content-center">
         <a href="https://www.facebook.com/spscollege.ac.th" target="_blank"><i class="bi bi-facebook"></i></a>
         <a href="https://line.me/R/ti/p/%40034klvzj" target="_blank"><i class="bi bi-line"></i></a>
-        <a href="https://www.youtube.com/@user-qm1vs5ss5f" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.youtube.com/@%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A0%E0%B8%B4%E0%B8%81%E0%B8%A9%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%80" target="_blank"><i class="bi bi-youtube"></i></a>
       </div>
       <div class="container">
 
